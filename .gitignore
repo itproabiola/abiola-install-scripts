@@ -1,0 +1,58 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*secret*
+*credential*
+*.credentials
+
+# SSH keys and certificates
+id_rsa
+id_ed25519
+*.ppk
+*.key
+*.p12
+*.pfx
+*.pem
+
+# Kubernetes credentials
+kubeconfig
+kubeconfig.txt
+**/kubeconfig
+**/kubeconfig.txt
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Cloud credentials
+.aws/
+.azure/
+.gcloud/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# SonarQube local credentials
+sonarqube/.env
+sonarqube/.env.*
+!sonarqube/.env.example

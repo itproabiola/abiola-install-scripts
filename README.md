@@ -54,3 +54,23 @@ Clone the repository:
 ```bash
 git clone https://github.com/itproabiola/abiola-install-scripts.git
 cd abiola-install-scripts
+
+```
+
+Review each script before execution. Check operating-system compatibility, permissions, configuration values and potential cloud costs.
+
+## Security
+
+- Never commit passwords, API tokens, private keys or `.env` files.
+- Use `.env.example` for local configuration.
+- Review cloud provisioning and deletion scripts before execution.
+- Test learning examples before using them in production.
+
+## Attribution
+
+See NOTICE and applicable third-party notices.
+
+## Maintainer
+
+Abiola DevOps  
+https://github.com/itproabiola
